@@ -40,8 +40,25 @@ function createProduct(name) {
     const products = {}
 
     products.name = name
-    console.log(products)
+   // console.log(products)
+
+   return products
 }
 
 createProduct('Banana')
 
+const product1 = new createProduct('teclado')
+//console.log(product1.name,"p1")
+
+const product2 = new createProduct('teclado')
+//console.log(product2.name)
+//console.log(product1 == product2)
+
+/** *********************TEXTO MAIUSCULO E MINUSCULO ************************************** */
+let nameAluna = 'maria'
+let transformName = nameAluna.toUpperCase()
+console.log(transformName)
+
+let nameMi = 'cAmilA'
+const transformNames = nameMi.toLowerCase()
+console.log(transformNames)

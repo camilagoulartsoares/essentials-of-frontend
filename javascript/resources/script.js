@@ -66,8 +66,14 @@ const transformNames = nameMi.toLowerCase()
 
 
 /** *********************TROCA DE PALAVRA ************************************** */
-let message = 'Estou estudando fundamentos do Javascript'
+let message = ' Estou estudando fundamentos do Javascript '
 
 console.log(message)
 
-console.log(message.replace("Estou","ESTÃO"))
+//console.log(message.replace("Estou","ESTÃO"))
+
+const numbersCredit = "123894900"
+
+//console.log(numbersCredit.length)
+
+//console.log(numbersCredit.slice(-4))

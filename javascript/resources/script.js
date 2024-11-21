@@ -57,8 +57,17 @@ const product2 = new createProduct('teclado')
 /** *********************TEXTO MAIUSCULO E MINUSCULO ************************************** */
 let nameAluna = 'maria'
 let transformName = nameAluna.toUpperCase()
-console.log(transformName)
+///console.log(transformName)
 
 let nameMi = 'cAmilA'
 const transformNames = nameMi.toLowerCase()
-console.log(transformNames)
+//console.log(transformNames)
+
+
+
+/** *********************TROCA DE PALAVRA ************************************** */
+let message = 'Estou estudando fundamentos do Javascript'
+
+console.log(message)
+
+console.log(message.replace("Estou","ESTÃO"))

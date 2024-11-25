@@ -68,7 +68,7 @@ const transformNames = nameMi.toLowerCase()
 /** *********************TROCA DE PALAVRA ************************************** */
 let message = ' Estou estudando fundamentos do Javascript '
 
-console.log(message)
+//console.log(message)
 
 //console.log(message.replace("Estou","ESTÃO"))
 
@@ -77,3 +77,32 @@ const numbersCredit = "123894900"
 //console.log(numbersCredit.length)
 
 //console.log(numbersCredit.slice(-4))
+
+//console.log(message.includes('Estoudd'))
+
+/** *********************Criando um array com um construtor
+ ************************************** */
+const newArray = new Array();
+//console.log(newArray)
+
+const letras = ['A','B']
+//console.log(letras[letras.length - 1])
+
+const text = 'CAMILA GOULART SOARES'
+//console.log(text)
+
+const transformEmArray = text.split(" ")
+//console.log(transformEmArray)
+
+/***************************ADICIONANDO UM ITEM NO FINAL DO ARRAY****************** */
+let namesStudents = []
+console.log(namesStudents)
+
+namesStudents.push("Camila","Joao")
+console.log(namesStudents)
+
+namesStudents.pop()
+console.log(namesStudents.includes('Camila'))
+
+const animals = ['CAT','DOG']
+console.log(animals[animals.length - 1])

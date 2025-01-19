@@ -96,13 +96,25 @@ const transformEmArray = text.split(" ")
 
 /***************************ADICIONANDO UM ITEM NO FINAL DO ARRAY****************** */
 let namesStudents = []
-console.log(namesStudents)
+//console.log(namesStudents)
 
 namesStudents.push("Camila","Joao")
-console.log(namesStudents)
+//console.log(namesStudents)
 
 namesStudents.pop()
-console.log(namesStudents.includes('Camila'))
+//console.log(namesStudents.includes('Camila'))
 
 const animals = ['CAT','DOG']
-console.log(animals[animals.length - 1])
+//console.log(animals[animals.length - 1])
+
+/***************************CÓDIGO A SER EXECUTADO VÁRIAS VEZES de acordo com uma condição específica****************** */
+/**
+let execute = true
+
+while(execute) {
+    let response = window.prompt("deseja continuar? 1 (SIM) OU 2 (NÃO)")
+
+    if (response === "2") {
+        execute = false
+    }
+} */

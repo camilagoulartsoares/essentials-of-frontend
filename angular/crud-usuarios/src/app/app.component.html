@@ -1,14 +1,10 @@
 <router-outlet />
 
-<p class="bg-success text-white">HELLO</p>
-
-<div class="container mt-5">
-<app-button text="oi"/>
-<app-button text="Logout"/>
-
-<app-button [text]="exemplo"/>
-
-<img src="assets/background-login.png" alt="">
 
 
-</div>
+<app-button text="ei" (click)="onSave()"></app-button>
+
+<input type="text" placeholder="digite A" (keyup.a)="teste()"
+/>
+
+

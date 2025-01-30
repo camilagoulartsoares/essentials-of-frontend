@@ -9,4 +9,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'crud-usuarios';
   exemplo = 'j0sios'
+
+
+protected onSave(){
+  console.log('clicado')
+}
+
+teste(){
+  console.log('oiajoaij')
+}
 }

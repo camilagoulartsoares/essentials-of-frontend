@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './components/menu/menu.component'
 import { MatIconModule } from '@angular/material/icon'
 import { RouterLink } from '@angular/router';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RouterLink } from '@angular/router';
     AppRoutingModule,
     FormsModule,
     MatIconModule,
-    RouterLink
+    RouterLink,
+    MatProgressSpinnerModule
   ],
   providers: [
     provideAnimationsAsync()

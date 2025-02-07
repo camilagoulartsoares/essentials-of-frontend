@@ -1,22 +1,23 @@
-import { Component, signal } from '@angular/core';
-import { DUMMY_USERS } from './dummy-users';
-import { CommonModule } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-users',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './users.component.html',
   styleUrl: './users.component.css',
 })
 export class UsersComponent {
-  public users = signal(DUMMY_USERS)
+  @Input({ required: true }) avatar!: string;
 
-  ngOnInit() {
-    console.log(this.users);
+  @Input({ required: true }) name!: string;
+
+  get imagePath() {
+    return 'assets/users/' + this.avatar
   }
 
-  teste(event: any) {
-    console.log(event)
+  ngOnInit(){
+    console.log(this.avatar)
+    console.log(this.name)
   }
 }

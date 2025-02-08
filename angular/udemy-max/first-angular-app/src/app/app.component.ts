@@ -12,8 +12,4 @@ import { DUMMY_USERS } from './components/users/dummy-users';
 })
 export class AppComponent {
  users = DUMMY_USERS;
-
- ngOnInit(){
-  console.log(this.users)
- }
 }

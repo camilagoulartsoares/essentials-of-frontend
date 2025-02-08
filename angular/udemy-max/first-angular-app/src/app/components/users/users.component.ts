@@ -8,17 +8,11 @@ import { Component, computed, Input, input } from '@angular/core';
   styleUrl: './users.component.css',
 })
 export class UsersComponent {
-  // @Input({ required: true }) avatar!: string;
-  // @Input({ required: true }) name!: string;
+  @Input({ required: true }) avatar!: string;
+  @Input({ required: true }) name!: string;
 
-  // get imagePath() {
-  //   return 'assets/users/' + this.avatar();
-  // }
+  get imagePath() {
+    return 'assets/users/' + this.avatar;
+  }
 
-  avatar = input.required<string>();
-  name = input.required<string>();
-
-  imagePath = computed(() => {
-    return 'assets/users/' + this.avatar();
-  });
 }

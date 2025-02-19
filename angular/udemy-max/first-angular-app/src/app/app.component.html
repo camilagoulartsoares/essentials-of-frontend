@@ -2,22 +2,20 @@
 
 <main>
   <ul id="users">
-    <li>
-      <app-users [id]="users[0].id" [avatar]="users[0].avatar" [name]="users[0].name" (select)="onSelectUser($event)" />
+    <li *ngFor="let user of users">
+      <app-users [user]="user" (select)="onSelectUser($event)" />
       <!--escutando o evento personalizado-->
     </li>
-    <li>
-      <app-users [id]="users[1].id" [avatar]="users[1].avatar" [name]="users[1].name" (select)="onSelectUser($event)" />
-    </li>
-    <li>
-      <app-users [id]="users[2].id" [avatar]="users[2].avatar" [name]="users[2].name" (select)="onSelectUser($event)" />
-    </li>
-    <li>
-      <app-users [id]="users[3].id" [avatar]="users[3].avatar" [name]="users[3].name" (select)="onSelectUser($event)" />
-    </li>
+
   </ul>
 
-  <app-tasks [user]="selectedUser?.name" />
+  <div *ngIf="selectedUser">
+    <app-tasks [user]="selectedUser.name" />
+  </div>
+
+  <div *ngIf="!selectedUser">
+    <p>Selecione um usuário</p>
+  </div>
 </main>
 
 <router-outlet />

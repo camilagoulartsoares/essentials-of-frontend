@@ -7,12 +7,8 @@ import {
   Output,
   output,
 } from '@angular/core';
+import { User } from './user.model';
 
-type User = {
-  id: string;
-  name: string;
-  avatar: string
-}
 
 @Component({
   selector: 'app-users',
@@ -23,6 +19,7 @@ type User = {
 })
 export class UsersComponent {
   @Input({ required: true }) user!: User;
+  @Input({ required: true }) selected!: boolean;
 
   @Output() select = new EventEmitter<string>();
 

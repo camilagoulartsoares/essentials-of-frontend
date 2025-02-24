@@ -9,14 +9,10 @@
   </header>
 
   <ul>
+    @for (task of selctedUserTasks; track task.id) {
     <li>
-      <app-task />
+      <app-task [task]="task" />
     </li>
-    <li>
-      <app-task />
-    </li>
-    <li>
-      <app-task />
-    </li>
+    }
   </ul>
 </section>

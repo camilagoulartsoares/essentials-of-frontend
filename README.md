@@ -18,10 +18,6 @@ Estudos realizados por meio de cursos da plataforma Udemy. Conteúdos desde o b�
 
 ### Projetos
 - [Projeto 1: Clone de Página Estática - HTML e CSS](#em-breve)
-- [Projeto 2: To-do List com JavaScript](#em-breve)
-- [Projeto 3: Formulário Validado com TypeScript](#em-breve)
-- [Projeto 4: Sistema CRUD com Angular](#em-breve)
-
 ---
 
 ## 🚀 Rocketseat
@@ -39,9 +35,8 @@ Estudos com foco em desenvolvimento moderno, componentização, SPAs e integraç
 - [ ] **Design System com Storybook e Tailwind**
 
 ### Projetos
-- [Projeto 1: Página de Login Responsiva](#em-breve)
-- [Projeto 2: Blog com Next.js e Markdown](#em-breve)
-- [Projeto 3: Design System com Storybook](#em-breve)
-- [Projeto 4: Dashboard com API de usuários](#em-breve)
+- [Projeto 1: Página de Receitas](#em-breve)
+
+
 
 

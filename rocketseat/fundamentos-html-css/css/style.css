@@ -1,8 +1,20 @@
 body {
-    background-color: bisque;
+    /* background-color: bisque; */
+    background-image: url("https://saxxes.com.br/wp-content/uploads/2024/04/logo-saxxes-2k-scaled.webp");
+    background-repeat: no-repeat;
 }
 
-.div-block{
-    border: 1px solid red;
-    padding: 20px;
+/* div,span {
+    width: 200px;
+    height: 100px;
+    border: solid;
+}
+
+.pading{
+    padding: 20px 20px 20px 30px;
+} */
+
+
+p{
+    font-family: sans-serif;
 }

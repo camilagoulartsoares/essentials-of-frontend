@@ -44,29 +44,4 @@ Estudos com foco em desenvolvimento moderno, componentização, SPAs e integraç
 - [Projeto 3: Design System com Storybook](#em-breve)
 - [Projeto 4: Dashboard com API de usuários](#em-breve)
 
----
 
-## 📂 Organização
-
-Cada projeto terá:
-- README próprio com instruções de instalação
-- Tecnologias utilizadas
-- Prints do projeto (quando possível)
-- Link de deploy (se disponível)
-
----
-
-## ✅ Progresso
-
-🟩 = Concluído  
-🟨 = Em andamento  
-⬜ = Não iniciado
-
-Você pode acompanhar meu progresso nas issues ou no [Projects](#) deste repositório.
-
----
-
-## 📌 Como me acompanhar
-
-🔗 [Meu LinkedIn](#)  
-🌐 [Meu Portfólio (em construção)](#)

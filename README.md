@@ -11,9 +11,8 @@ Bem-vindo ao meu repositório de estudos! Aqui você encontrará a organização
 Estudos realizados por meio de cursos da plataforma Udemy. Conteúdos desde o básico ao avançado, cobrindo HTML, CSS, JavaScript, TypeScript, Angular, entre outros.
 
 ### Projetos
-### Projetos
-- [Projeto 1: Página de Receitas - HTML e CSS](https://pagina-de-receitas-iota.vercel.app/)
 
+- [Projeto 1: Página de Receitas - HTML e CSS](https://pagina-de-receitas-iota.vercel.app/)
 
 ---
 

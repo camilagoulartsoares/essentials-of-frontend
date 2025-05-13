@@ -1,0 +1,10 @@
+.container {
+    border: dashed;
+}
+
+.item {
+    --hue: 0;
+    border: solid red;
+    text-align: center;
+    background-color: hsl(var(--hue),100%,70%);
+}

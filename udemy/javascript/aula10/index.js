@@ -10,4 +10,11 @@ let aumento = contador++
 //Operador DECREMENTO
 let contadorDecremento = 10;
 let decremento = --contadorDecremento
-console.log(--contadorDecremento)
+// console.log(--contadorDecremento)
+
+
+//INCREMENTO
+let alunos = 10;
+alunos++
+
+console.log(alunos)

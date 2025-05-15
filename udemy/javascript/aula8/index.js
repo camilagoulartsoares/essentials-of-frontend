@@ -1,6 +1,7 @@
-let name = 'Camila'
-let idade = 30
-let peso = 55
-let altura = 1.63
+const nameCamila = 'Camila'
+const idade = 30
+const peso = 55
+const altura = 1.63
 
-console.log(`${name}, tem ${idade} anos,pesa ${peso} kg tem ${altura} de altura`)
+let imc = peso / (altura * altura)
+console.log(`${nameCamila}, tem ${idade} anos,pesa ${peso} kg tem ${altura} de altura e seu IMC é de ${imc}`)

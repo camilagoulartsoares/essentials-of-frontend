@@ -16,3 +16,4 @@
   document.body.innerHTML += `Seu nome com letras maiúsculas: ${nome.toUpperCase()} <br />`;
 
   document.body.innerHTML += `Seu nome com letras minúsculas: ${nome.toLowerCase()} <br />`;
+  

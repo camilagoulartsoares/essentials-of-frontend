@@ -18,8 +18,12 @@ form.addEventListener('submit', function (e) {
         return
     }
 
+    const img = getImc(peso,altura)
 
 })
+
+
+function getImc() {}
 
 function criaP() {
     const p = document.createElement('p');
@@ -30,5 +34,6 @@ function setResultado(msg, isValid) {
     const resultado = document.querySelector('#resultado')
     resultado.innerHTML = ''
     const p = criaP()
+    p.innerHTML = msg
+    resultado.appendChild(p)
 }
-

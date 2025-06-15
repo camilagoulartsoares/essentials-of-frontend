@@ -68,4 +68,5 @@ const opcoes = {
     dateStyle: 'full',
     // timeStyle: 'short'
 }
+
 pegaDiv.innerHTML= dataAtual.toLocaleDateString('pt-BR',opcoes)

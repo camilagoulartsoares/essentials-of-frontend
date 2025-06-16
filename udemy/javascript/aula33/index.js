@@ -7,7 +7,6 @@ const pessoa = {
     }
 }
 
-const {nome: teste= ''} = pessoa;
+const {nome} = pessoa;
 const {idade} = pessoa;
-console.log(teste)
 console.log(idade)

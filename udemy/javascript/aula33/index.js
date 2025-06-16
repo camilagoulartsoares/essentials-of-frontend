@@ -1,5 +1,5 @@
 const pessoa = {
-    // nome: 'Camila',
+    nome: 'Camila',
     idade: 25,
     endereco: {
         rua: 'Av Florisval',
@@ -7,7 +7,7 @@ const pessoa = {
     }
 }
 
-const {nome =''} = pessoa;
+const {nome: teste= ''} = pessoa;
 const {idade} = pessoa;
-console.log(nome)
+console.log(teste)
 console.log(idade)

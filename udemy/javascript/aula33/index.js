@@ -12,5 +12,5 @@ const { nome,...restoInfos } = pessoa;
 // const { endereco: { rua } } = pessoa
 console.log(nome)
 
-//pegando restane informacoes
+//pegando resto de informacoes
 console.log(restoInfos)

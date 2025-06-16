@@ -7,6 +7,10 @@ const pessoa = {
     }
 }
 
-const {nome} = pessoa;
-const {idade} = pessoa;
-console.log(idade)
+const { nome,...restoInfos } = pessoa;
+// const { idade } = pessoa;
+// const { endereco: { rua } } = pessoa
+console.log(nome)
+
+//pegando restane informacoes
+console.log(restoInfos)

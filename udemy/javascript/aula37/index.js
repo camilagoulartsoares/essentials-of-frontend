@@ -10,3 +10,10 @@ for (let valor of nome) {
 
 
 //FOR ESPECÍFICO PARA OBJETOS ITERÁVEIS
+
+const nomes = ['Luiz','Ana']
+
+for (let name of nomes){
+
+    console.log(name)
+}

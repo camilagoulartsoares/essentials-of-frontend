@@ -11,3 +11,10 @@ function recebeNumeros (min,max) {
 }
 
 recebeNumeros(5,10)
+
+
+//outro modo
+
+const max2 = (x,y) => {
+    return x > y ? x : y;
+}

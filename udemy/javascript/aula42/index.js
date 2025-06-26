@@ -7,7 +7,7 @@ try {
 
 function soma(x, y) {
     if (typeof x !== 'number' || typeof y !== 'number') {
-        throw ("X e Y precisam ser numeros");
+        throw new Error("X e Y precisam ser numeros");
     }
 
     return x + y;

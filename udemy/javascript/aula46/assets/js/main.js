@@ -19,6 +19,7 @@ function limpaInput() {
   inputTarefa.focus();
 }
 
+
 function criaBotaoApagar(li) {
   li.innerText += ' ';
   const botaoApagar = document.createElement('button');
@@ -28,6 +29,7 @@ function criaBotaoApagar(li) {
   botaoApagar.setAttribute('title', 'Apagar esta tarefa');
   li.appendChild(botaoApagar);
 }
+
 
 function criaTarefa(textoInput) {
   const li = criaLi();

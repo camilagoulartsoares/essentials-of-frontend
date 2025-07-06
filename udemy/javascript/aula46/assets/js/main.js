@@ -14,12 +14,10 @@ inputTarefa.addEventListener('keypress', function(e) {
   }
 });
 
-
 function limpaInput() {
   inputTarefa.value = '';
   inputTarefa.focus();
 }
-
 
 function criaBotaoApagar(li) {
   li.innerText += ' ';

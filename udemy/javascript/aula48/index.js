@@ -1,5 +1,9 @@
 function funcao() {
-    console.log('oie')
+    let total = 0;
+
+    for (let argumento of arguments) {
+        total += argumento;
+    }
 }
 
-funcao();
+funcao(1,2,3,4,5);

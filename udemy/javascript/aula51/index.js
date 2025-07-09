@@ -5,3 +5,6 @@ function retornaFuncao() {
         return nome
     }
 }
+
+
+const funcao = retornaFuncao()

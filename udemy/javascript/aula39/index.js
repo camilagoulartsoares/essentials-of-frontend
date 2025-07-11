@@ -20,6 +20,7 @@ while (rand !== 10) {
     // console.log(rand)
 }
 
+
 //o DO WHILE executa a função e depois checa
 do {
     rand = random(min, max)

@@ -4,3 +4,4 @@ const frutas = ["maçã", "banana", "laranja", "uva"];
 frutas.splice(1,1,'Abacaxi','Morango')
 
 console.log(frutas)
+

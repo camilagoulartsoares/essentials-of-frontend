@@ -12,6 +12,7 @@ function Livro(titulo, autor, ano, lido = false) {
         }
 }
 
+
 const livro1 = new Livro("Dom Casmurro", "Machado de Assis", 1899);
 const livro2 = new Livro("1984", "George Orwell", 1949);
 

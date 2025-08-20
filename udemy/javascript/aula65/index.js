@@ -6,7 +6,7 @@ const numerosFiltrados = numeros.filter((num) => num > 10)
 // console.log(numerosFiltrados)
 
 
-// Retorne as pessoas que tem o nome com 5 letras ou mais
+//Retorne as pessoas que tem o nome com 5 letras ou mais
 //Retorne as pessoas com mais de 50 anos
 //Retorne as pessoas cujo o nome termina com A
 
@@ -41,4 +41,11 @@ const pessoasComIdadeMaiorQueSecenta = pessoas.filter(function(objeto) {
     return objeto.idade > 60
 })
 
-console.log(pessoasComIdadeMaiorQueSecenta)
+// console.log(pessoasComIdadeMaiorQueSecenta)
+
+
+const nomeTerminaComA = pessoas.filter(function(obj) {
+    return obj.nome.toLowerCase().endsWith('a')
+})
+
+console.log(nomeTerminaComA)

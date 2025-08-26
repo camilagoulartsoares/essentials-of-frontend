@@ -5,3 +5,5 @@ const total = numeros.reduce(function (acumulador, valor, indice, array){
 
     return acumulador
 },0)
+
+//Somar todos os numeros (reduce)
